@@ -1,0 +1,43 @@
+{
+  "paths": {
+    "model_directory": "/path/to/dir/to/save",
+    "src_vocab": "/path/to/src/vocab/file",
+    "tgt_vocab": "/path/to/tgt/vocab/file",
+    "src_train": "/path/to/src/train/file",
+    "tgt_train": "/path/to/tgt/train/file",
+    "src_dev": "/path/to/src/dev/file",
+    "tgt_dev": "/path/to/tgt/dev/file"
+  },
+  "train_vars": {
+    "model_type": "posemb_transformer",
+    "step": 300000,
+    "learning_rate": 0.0001,
+    "batch_size": 128,
+    "valid_batch_size": 200,
+    "check_steps": 10000,
+    "train_max_length": 49,
+    "train_num_import_line": -1,
+    "prediction_max_length": 150,
+    "dropout_p": 0.2,
+    "clip_grad_norm" : 3.0
+  },
+  "options":{
+    "share_embedding": false,
+    "sentence_piece": true,
+    "use_kytea": false
+  },
+  "encoder_vars": {
+    "emb_dim": 512,
+    "model_dim": 512,
+    "ff_dim": 2048,
+    "num_layers": 6,
+    "num_head": 8
+  },
+  "decoder_vars": {
+    "emb_dim": 512,
+    "model_dim": 512,
+    "ff_dim": 2048,
+    "num_layers": 6,
+    "num_head": 8
+  }
+}
