@@ -102,10 +102,17 @@ Please use the setting file of the model you want to try for the `-s` option in 
 ## Reference
 
 ```
-@InProceedings{neishi:CoNLL2019,
-  author    = {Neishi, Masato  and Yoshinaga, Naoki},
-  title     = {On the Relation between Position Information and Sentence Length in Neural Machine Translation},
-  booktitle = {Proceedings of the 23rd Conference on Computational Natural Language Learning},
-  year      = {2019 (to appear)}
+@inproceedings{neishi-yoshinaga-2019-relation,
+    title = "On the Relation between Position Information and Sentence Length in Neural Machine Translation",
+    author = "Neishi, Masato  and
+      Yoshinaga, Naoki",
+    booktitle = "Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/K19-1031",
+    doi = "10.18653/v1/K19-1031",
+    pages = "328--338",
 }
 ```
