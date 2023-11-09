@@ -68,7 +68,7 @@ nohup python3 ./run_train.py \
   -ts $DATA/train.en \
   -tt $DATA/train.de \
   -ds $DATA/dev.en \
-  -st $DATA/dev.de \
+  -dt $DATA/dev.de \
   >> $MODEL_DIR/log.txt &
 ```
 - By customizing setting file, you can run the code above only with `-s` option.
