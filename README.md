@@ -106,13 +106,14 @@ Please use the setting file of the model you want to try for the `-s` option in 
     title = "On the Relation between Position Information and Sentence Length in Neural Machine Translation",
     author = "Neishi, Masato  and
       Yoshinaga, Naoki",
+    editor = "Bansal, Mohit  and
+      Villavicencio, Aline",
     booktitle = "Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL)",
     month = nov,
     year = "2019",
     address = "Hong Kong, China",
     publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/K19-1031",
+    url = "https://aclanthology.org/K19-1031",
     doi = "10.18653/v1/K19-1031",
     pages = "328--338",
-}
 ```
